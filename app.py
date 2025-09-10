@@ -22,3 +22,4 @@ if user_input:
     except Exception as e:
         st.error(f"Error: {str(e)}")
         st.info("Make sure you set your OPENAI_API_KEY properly.")
+
